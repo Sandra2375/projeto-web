@@ -1,68 +1,111 @@
-*{
-    padding: 0 ;
-    margin: 0;
-box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
-    min-height: 100vh;
-    
+  min-height: 100vh;
+  font-family: "Nunito", sans-serif;
+  color: #0d0d0d;
 }
 #cabecalho {
+  width: 100%;
+  background-color: #f2e2057a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 200px;
+  margin-left: 5px;
+}
+.carrinho {
+  width: 70px;
+  margin-right: 25px;
+}
+#cabecalho .Links {
+  text-decoration: none;
+  font-size: 25px;
+  color: #0d0d0d;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 10px;
+}
+#cabecalho .Links:hover {
+  transition: 0.3s;
+  color: #f20f0f;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    margin-left: 25px;
+}
+#tabela {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cardes {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #04047f;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardes img {
+  width: 100%;
+  border-radius: 15px;
+}
+.cardes .imgCard {
+  border-bottom: 2px solid #04047f;
+}
+.cardes p {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.cardes .linkCompra {
+  text-decoration: none;
+  color: #04047f;
+  border-bottom: 2px solid #04047f;
+  border-radius: 5px;
+  margin: 5px 0px;
+  padding: 3px;
+}
+.cardes .linkCompra:hover {
+  transition: 0.3s;
+  color: white;
+  background-color: #04047f;
+}
+.divBt{
     width: 100%;
-    background-color:  #f2e20590;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
-.logo{
-    width: 200px;
-    margin-left: 5px;
-
+.finalizar {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+  border: 2px solid red;
+  color: red;
+  border-radius: 10px;
+  padding: 4px;
 }
-.carrinho{
-    width: 70px;
-    margin-right: 10px;
-    
+.finalizar:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s;
 }
-#cabecalho .Links{
-    text-decoration: none;
-    font-size: 25px;
-    color: #0d0d0d;
-    border-bottom: 2px solid ;
-    margin-left: 10px;
-
-}
-#caixa{
-    list-style: none;
-    margin: 10px;
-    background-color: aqua;
-    padding: 4px;
-    display: flex;
-    
-}
-#caixa li{
-   background-color: bisque;
-   width: 300px;
-   padding: 5px;
-   font-size: 20px;
-   margin: 5px;
-   border: 2px solid #1f82bf;
-   border-radius: 20px;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   align-items: center;
-
-}
-#caixa img{
-    width: 100%;
-    border-bottom: 2px solid #1f82bf ;
-
-}
-#caixa p{
-    font-size: 20px;
-  
-}
-
-
-

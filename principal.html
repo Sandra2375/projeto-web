@@ -3,9 +3,6 @@
 
 <head>
     <title>Produtos</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-    </style>
     <link rel="stylesheet" href="css/principal.css">
 
 </head>
@@ -34,38 +31,43 @@
     <h1>Loja Online</h1>
 
 
-    <h2>Produtos</h2>
+    <h2>Produtos:</h2>
 
-    <ul id="caixa">
-        <li>
-            <a href="detalhes.html" title="detalhes do produto">
+
+    <ul id="tabela">
+        <li class="cardes">
+            <a class="imgCard" href="detalhes.html" title="detalhes do produto">
                 <img src="imagens/livro 1.webp" alt="Livro 1">
             </a>
             <P>
                 Produto 1 - R$ 50,00
             </p>
-            <a href="detalhes.html">adicionar ao carrinho</a>
+            <a class="linkCompra" href="detalhes.html">adicionar ao carrinho</a>
         </li>
-        <li>
-            <a href="detalhes2.html" title="detalhes do produto">
+        <li class="cardes">
+            <a class="imgCard" href="detalhes2.html" title="detalhes do produto">
                 <img src="imagens/livro_2.png" alt="Livro 2">
             </a>
             <p>
                 Produto 2 - R$ 60,00
             </p>
-            <a href="detalhes2.html">adicionar ao carrinho</a>
+            <a class="linkCompra" href="detalhes2.html">adicionar ao carrinho</a>
         </li>
-        <li>
-            <a href="detalhes3.html" title="detalhes do produto">
+        <li class="cardes">
+            <a class="imgCard" href="detalhes3.html" title="detalhes do produto">
                 <img src="imagens/livro_3.png" alt="Livro 3">
-            </a>          <P>Produto 3 - R$ 70,00
+            </a>
+            <P>
+                Produto 3 - R$ 70,00
             </p>
-            <a href="detalhes3.html">adicionar ao carrinho</a>
+            <a class="linkCompra" href="detalhes3.html">adicionar ao carrinho</a>
         </li>
     </ul>
 
     <br>
-    <a href="finalizar.html">Finalizar Compra</a>
+    <div class="divBt">
+        <a class="finalizar" href="finalizar.html">Finalizar Compra</a>
+    </div>
 
 </body>
 
