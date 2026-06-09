@@ -3,51 +3,69 @@
 
 <head>
     <title>Finalizar Compra</title>
+    <link rel="stylesheet" href="css/finalizar.css">
 </head>
 
 <body>
+    <header id="cabecalho">
+        <!-- Logo do sistema -->
+        <a href="principal.html" title="Voltar para a tela principal">
+            <img src="imagens/logo_marca_livros.png" alt="Logo do Sistema" class="logo">
+        </a>
 
-    <h1>Finalizar Compra</h1>
+        <!-- Links de navegação -->
+        <nav>
+            <a class="Links" href="index.html">Sair</a>
+            <a class="Links" href="sobre.html">Sobre</a>
+        </nav>
 
-    <form onsubmit="alert('compra realizada com sucesso!')" action="principal.html">
-        <ul>
-            <li>
-                <a href="detalhes.html" title="detalhes do produto">
-                    <img src="imagens/livro 1.webp" alt="Livro 1" width="40">
-                </a>
-                <a href="detalhes.html">Produto 1 - R$ 50,00</a>
-            </li>
-            <li>
-                <a href="detalhes2.html" title="detalhes do produto">
-                    <img src="imagens/livro 2.webp" alt="Livro 2" width="40">
-                </a>
+        <!-- Carrinho de compras -->
+        <a href="finalizar.html" title="Finalizar Compra">
+            <img src="imagens/carrinho_2.png" alt="Carrinho de Compras" class="carrinho">
+        </a>
+    </header>
 
-                <a href="detalhes2.html">Produto 2 - R$ 60,00</a>
-            </li>
-            <li>
-                <a href="detalhes3.html" title="detalhes do produto">
-                    <img src="imagens/livro 3.webp" alt="Livro 3" width="40">
-                </a>
-                <a href="detalhes3.html">Produto 3 - R$ 70,00</a>
-            </li>
-        </ul>
-        <label>Nome:</label><br>
-        <input type="text" required><br><br>
+    <div id="corpo">
+        <form id="formulario" onsubmit="alert('compra realizada com sucesso!')" action="principal.html">
+            <h1>Finalizar Compra</h1>
+            <ul>
+                <li>
+                    <a href="detalhes.html" title="detalhes do produto">
+                        <img src="imagens/livro 1.webp" alt="Livro 1">
+                    </a>
+                    <a class="tituloLivro" href="detalhes.html">Produto 1 - R$ 50,00</a>
+                </li>
+                <li>
+                    <a  href="detalhes2.html" title="detalhes do produto">
+                        <img src="imagens/livro_2.png" alt="Livro 2">
+                    </a>
 
-        <label>Endereço:</label><br>
-        <input type="text" required><br><br>
+                    <a class="tituloLivro" href="detalhes2.html">Produto 2 - R$ 60,00</a>
+                </li>
+                <li>
+                    <a href="detalhes3.html" title="detalhes do produto">
+                        <img src="imagens/livro_3.png" alt="Livro 3">
+                    </a>
+                    <a class="tituloLivro" href="detalhes3.html">Produto 3 - R$ 70,00</a>
+                </li>
+            </ul>
+            <label>Nome:</label><br>
+            <input type="text" required><br><br>
 
-        <label>Forma de pagamento:</label><br>
-        <select>
-            <option>Cartão</option>
-            <option>Boleto</option>
-        </select><br><br>
+            <label>Endereço:</label><br>
+            <input type="text" required><br><br>
 
-        <button type="submit">Comprar</button>
-    </form>
+            <label>Forma de pagamento:</label><br>
+            <select>
+                <option>Cartão</option>
+                <option>Boleto</option>
+            </select><br><br>
 
-    <br>
-    <a href="principal.html">Voltar</a>
+            <button class="btmComprar" type="submit">Comprar</button>
+            <br><br>
+            <a class="a" href="principal.html">Voltar</a>
+        </form>
+    </div>
 
 </body>
 

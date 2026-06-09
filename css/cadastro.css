@@ -19,7 +19,6 @@ body {
   align-items: center;
 }
 #corpo {
-  background-color: aqua;
   width: 100%;
   height: auto;
   display: flex;

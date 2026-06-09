@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  font-family: "Nunito", sans-serif;
+  color: #0d0d0d;
+}
+#cabecalho {
+  width: 100%;
+  background-color: #f2e2057a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 200px;
+  margin-left: 5px;
+}
+.carrinho {
+  width: 70px;
+  margin-right: 25px;
+}
+#cabecalho .Links {
+  text-decoration: none;
+  font-size: 25px;
+  color: #0d0d0d;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 10px;
+}
+#cabecalho .Links:hover {
+  transition: 0.3s;
+  color: #f20f0f;
+}
+#corpo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+#formulario {
+  width: 400px;
+  padding: 8px;
+  border: 2px solid #1f82bf;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+li{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #1f82bf;
+    margin: 10px 0;
+}
+img {
+  width: 100px;
+}
+.tituloLivro{
+    text-decoration: none;
+    margin-left: 10px;
+    color: #0d0d0d;
+    font-weight: bold;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    width: 60%;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #1f82bf;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+select{
+    margin-top: 5px;
+    font-size: 17px;
+    border: 2px solid #1f82bf;
+    border-radius: 5px;
+}
+.btmComprar {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 5px 0;
+  border: 2px solid red;
+  color: red;
+  background-color: white;
+  border-radius: 10px;
+  padding: 4px;
+  cursor: pointer;
+}
+.btmComprar:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s;
+}
+.a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #1f82bf;
+    border-bottom: 1px solid #1f82bf;
+}
+.a:hover{
+    transition: 0.3s;
+    color: #f20f0f;
+    border-color: #f20f0f;
+}

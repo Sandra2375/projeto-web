@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+
+.propaganda {
+    position: fixed;       /* Faz a div ficar presa na tela */
+    bottom: 100px;          /* Distância do fundo */
+    right: 80px;           /* Distância do canto direito */
+    background-color: #ff4757; /* Cor de fundo vermelha */
+    color: white;          /* Cor do texto branca */
+    padding: 15px;         /* Espaço interno */
+    border-radius: 8px;    /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Sombra preta leve */
+    text-align: center;    /* Centraliza o texto */
+    font-family: "Nunito", sans-serif;
+    z-index: 1000;         /* Garante que fica por cima do site */
+}
+
+.btn-fechar {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.propaganda:hover{
+    transition: 0.3s;
+    border: 3px solid #ff4757;
+    background-color: white;
+    color: #0d0d0d;
+}
+.imgP{
+    margin: 5px;
+    width: 100px;
+    border: 1px solid white;
+}
+.pPro{
+    font-size: 18px;
+}
+
+.aPro {
+  text-decoration: none;
+  font-size: 17px;
+  color: #1f82bf;
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+.aPro:hover{
+    transition: 0.3s;
+    color: #f20f0f;
+    border-color: #f20f0f;
+}
+
+
